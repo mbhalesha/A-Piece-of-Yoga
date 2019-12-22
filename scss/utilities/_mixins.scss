@@ -1,0 +1,23 @@
+// === Sass Mixins ===
+
+// Mixin to align content to center
+@mixin center {
+    width: 90%;
+    max-width: $max-width;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin flexbox($disp: flex, $dir: null, $just: null, $align: null) {
+    display: $disp;
+    flex-direction: $dir;
+    justify-content: $just;
+    align-items: $align;
+  }
+
+  @mixin mq($size) {
+    @media (min-width: $size) {
+      @content;
+    }
+  }

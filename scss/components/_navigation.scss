@@ -1,0 +1,59 @@
+
+// === Navigation ===
+
+.nav {
+    padding-left: 0;
+    flex-basis: 100%;
+    @include flexbox($dir: column);
+    &-link {
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px 0;
+      display: block;
+      width: 100%;
+      transition: 
+        background-color .2s ease-in-out, 
+        color .2s ease-in-out;
+        &:hover {
+          color: #fff;
+          background-color: $color-primary;
+        }
+    }
+    @include mq($break-m) 
+    {
+    @include flexbox(flex, row, flex-end, center);
+      &-link {
+      flex-basis: 100px;
+    }
+  }
+  }
+  
+  //=== Media Queries ===
+
+// @include mq($break-m) 
+//   {
+//    @include flexbox(flex, row, flex-end, center);
+//         &-link {
+//       flex-basis: 100px;
+//     }
+//   }
+
+  // .nav-link {
+  //   text-align: center;
+  //   border-radius: 5px;
+  //   padding: 10px 0;
+  //   display: block;
+  //   width: 100%;
+  //   transition: 
+  //     background-color .2s ease-in-out, 
+  //     color .2s ease-in-out;
+  //     &:hover {
+  //       color: #fff;
+  //       background-color: #58e1c1;
+  //     }
+  // }
+  
+  // .nav-link:hover {
+  //   color: #fff;
+  //   background-color: #58e1c1;
+  // }

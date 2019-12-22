@@ -1,0 +1,47 @@
+// === Variables ===
+
+$font-stack-primary: 'Raleway', sans-serif;
+$font-size-blockquote: 1.5em;
+$font-style-blockquote: italic;
+
+
+$color-primary: #58e1c1; //aqua
+$color-secondary: #777; //gray
+$color-default: #51ddfc; //blue
+// $color-nav-link: rgb(226, 158, 31); //orange
+$color-error: #e4757a;//dark red
+$color-info: #927bc1;//purple
+$color-success: #63cc82;//green
+$color-warning: #fd7856; //bright red
+
+$break-xs: 575px;
+$break-s: 576px;
+$break-m: 768px; //tablet size
+$break-l: 992px;
+
+$max-width: 1000px;
+
+// === Sass List ===
+
+$colors: (
+  #927bc1,
+  #fd7856,
+  #deb2ee,
+  #7ee6fd,
+  #88d9a0,
+  #4da2bb,
+  #ec9fa3,
+  #fd9f85,
+  #e4757a,
+  #63cc82,
+  #51ddfc,
+  #80e8d1
+);
+
+$button-colors: (
+    default: #51ddfc,
+    success: #63cc82,
+    error: #e4757a,
+    warning: #fd7856,
+    info: #927bc1
+)   
