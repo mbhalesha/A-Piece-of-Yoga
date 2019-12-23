@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -373,7 +374,7 @@ template {
 
 /* line 4, ../../../../../Documents/GitHub/-A-Piece-of-Yoga/scss/base/_typography.scss */
 * {
-  font-family: "Raleway", sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #777;
   box-sizing: border-box;
 }
